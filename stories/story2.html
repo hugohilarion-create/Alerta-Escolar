@@ -26,7 +26,7 @@
             width: 360px;
             height: 640px;
             max-width: 100%;
-            padding: 30px;
+            padding: 25px;
             position: relative;
             overflow: hidden;
             display: flex;
@@ -34,6 +34,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+
             background:
                 radial-gradient(circle at top right, #2456a0 0, transparent 45%),
                 linear-gradient(145deg, #174EA6, #101D35 75%);
@@ -44,7 +45,7 @@
             height: 5px;
             border-radius: 10px;
             background: #F5B700;
-            margin-bottom: 28px;
+            margin-bottom: 20px;
         }
 
         .logo {
@@ -54,37 +55,53 @@
         }
 
         .icone {
-            font-size: 75px;
-            margin: 35px 0 20px;
+            font-size: 65px;
+            margin: 20px 0 10px;
         }
 
         h1 {
-            font-size: 37px;
+            font-size: 32px;
             line-height: 1.15;
-            margin: 10px 0;
+            margin: 8px 0;
         }
 
         .descricao {
-            font-size: 18px;
-            line-height: 1.5;
+            font-size: 16px;
+            line-height: 1.4;
             color: #DCE8FA;
-            margin: 15px 0 25px;
+            margin: 10px 0 15px;
+        }
+
+        .qrcode {
+            width: 115px;
+            height: 115px;
+            padding: 6px;
+            background: white;
+            border-radius: 12px;
+            object-fit: contain;
         }
 
         .botao {
             background: #F5B700;
             color: #172B4D;
-            padding: 17px 25px;
+            padding: 13px 25px;
             border-radius: 12px;
-            font-size: 19px;
+            font-size: 18px;
             font-weight: bold;
             width: 100%;
+            margin-top: 12px;
+        }
+
+        .instrucao {
+            font-size: 13px;
+            color: #DCE8FA;
+            margin-top: 8px;
         }
 
         .rodape {
             position: absolute;
-            bottom: 22px;
-            font-size: 12px;
+            bottom: 15px;
+            font-size: 11px;
             letter-spacing: 1px;
             color: #C5D5EE;
         }
@@ -115,9 +132,19 @@
             Comunique, acompanhe e participe.
         </p>
 
+        <img
+            src="../qr-alerta-escolar.png"
+            alt="QR Code para acessar o Alerta Escolar"
+            class="qrcode"
+        >
+
         <div class="botao">
             TESTE AGORA
         </div>
+
+        <p class="instrucao">
+            Escaneie o QR Code e conheça a plataforma.
+        </p>
 
         <div class="rodape">
             SUA PARTICIPAÇÃO FAZ A DIFERENÇA
