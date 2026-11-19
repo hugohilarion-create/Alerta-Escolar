@@ -1,0 +1,51 @@
+{
+    "ocorrencias": [
+        {
+            "id": 1,
+            "objeto": "Ventilador",
+            "categoria": "Quebrado",
+            "local": "Sala 12",
+            "descricao": "O ventilador não está funcionando.",
+            "responsavel": "Lucas Oliveira",
+            "situacao": "Pendente",
+            "data": "2026-11-12"
+        },
+        {
+            "id": 2,
+            "objeto": "Computador",
+            "categoria": "Com defeito",
+            "local": "Laboratório de informática",
+            "descricao": "O computador não está ligando.",
+            "responsavel": "Mariana Santos",
+            "situacao": "Em andamento",
+            "data": "2026-11-12"
+        },
+        {
+            "id": 3,
+            "objeto": "Cadeira",
+            "categoria": "Faltando",
+            "local": "Sala 08",
+            "descricao": "Está faltando uma cadeira na sala.",
+            "responsavel": "Pedro Henrique",
+            "situacao": "Resolvido",
+            "data": "2026-11-12"
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Lucas Oliveira",
+            "perfil": "Aluno"
+        },
+        {
+            "id": 2,
+            "nome": "Mariana Santos",
+            "perfil": "Funcionária"
+        },
+        {
+            "id": 3,
+            "nome": "Pedro Henrique",
+            "perfil": "Professor"
+        }
+    ]
+}
